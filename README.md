@@ -94,8 +94,10 @@ c. Afterwards, importing the file 'ghz_state_Fidelity_generation.py' Fidelity is
 
 d. Normalized and diagonally reduced the feature space with valid information using PCA/Quantum PCA as implementated in 'PCA1.ipynb' file.
 
-e. Based on the valid 4-Qubit states for Fidelity(F)>=0.50, Feature related information is generated using ZZfeature Map for to generate Hilbert space for N-qubits of the valid GHZ states and encode the information using Classical(Random Forest/ XGBoost) or Quantum Machine Learning Algorithms(QSVC) for further processing with prediction and fraud/anomaly detection as implemented using the files - 'Classical_ML.ipynb' and 'QSVC_ML.ipynb' files respectively and the outputs are shown in Table 3 to Table 7.
+e. Cluster and trace imbance of the normalized information using SMOTE (Synthetic Minority Over-sampling TEchnique) and in our scheme , we have incorporated K-Means clustering mechanism and the specific file is attached herewith for this purpose as 'smote_cluster.ipynb' for generation of 4-Qubit states for Quantum-Blockchain communication.
 
-f.Detect anomalies with the predicted states using Score Vector and further detect the frauds using Classical/Quantum Machine Learning Optimization Schemes like VQC Model for the probability of > 0.75 for Frauds. This mechanism is implemented and attached herewith in the 'QVC.ipynb' file and validate the output for our scheme showing in the Table 8 at the manuscript.
+f. Based on the valid 4-Qubit states for Fidelity(F)>=0.50, Feature related information is generated using ZZfeature Map for to generate Hilbert space for N-qubits of the valid GHZ states and encode the information using Classical(Random Forest/ XGBoost) or Quantum Machine Learning Algorithms(QSVC) for further processing with prediction and fraud/anomaly detection as implemented using the files - 'Classical_ML.ipynb' and 'QSVC_ML.ipynb' files respectively and the outputs are shown in Table 3 to Table 7.
+
+g.Detect anomalies with the predicted states using Score Vector and further detect the frauds using Classical/Quantum Machine Learning Optimization Schemes like VQC Model for the probability of > 0.75 for Frauds. This mechanism is implemented and attached herewith in the 'QVC.ipynb' file and validate the output for our scheme showing in the Table 8 at the manuscript.
 
 
